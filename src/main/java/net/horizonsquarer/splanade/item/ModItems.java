@@ -2,8 +2,12 @@ package net.horizonsquarer.splanade.item;
 
 import com.google.common.util.concurrent.ClosingFuture;
 import net.horizonsquarer.splanade.Splanade;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PotionItem;
+import net.minecraft.world.item.alchemy.Potion;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -14,6 +18,12 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Splanade.MOD_ID);
 
     //TENEBRITE STUFF HERE
+    public static final RegistryObject<Item> TENEBRITE_DUST = ITEMS.register("tenebrite_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRYSTALLISED_TENEBRITE_DUST = ITEMS.register("crystallised_tenebrite_dust",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> TENEBRITE = ITEMS.register("tenebrite",
             () -> new Item(new Item.Properties()));
 

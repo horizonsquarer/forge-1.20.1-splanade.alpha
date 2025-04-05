@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.horizonsquarer.splanade.block.ModBlocks;
 import net.horizonsquarer.splanade.item.ModCreativeModeTab;
 import net.horizonsquarer.splanade.item.ModItems;
+import net.horizonsquarer.splanade.item.ModPotions;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,6 +40,7 @@ public class Splanade
         //REGS
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

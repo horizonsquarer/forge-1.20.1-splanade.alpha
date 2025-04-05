@@ -1,12 +1,15 @@
 {
   "item.splanade.refined_tenebrite": "Refined Tenebrite",
   "item.splanade.tenebrite": "Tenebrite",
+  "item.splanade.tenebrite_dust": "Tenebrite Dust",
+  "item.splanade.crystallised_tenebrite_dust": "Crystallised Tenebrite Dust",
   "item.splanade.tenebrite_boots": "Tenebrite Boots",
   "item.splanade.tenebrite_chestplate": "Tenebrite Chestplate",
   "item.splanade.tenebrite_helmet": "Tenebrite Helmet",
   "item.splanade.tenebrite_leggings": "Tenebrite Leggings",
 
   "block.splanade.refined_tenebrite_block": "Refined Tenebrite Block",
+  "block.splanade.tenebrite_ore": "Tenebrite Ore",
 
   "creativetab.splanade_tab": "Splanade"
 }

@@ -2,10 +2,12 @@ package net.horizonsquarer.splanade.block;
 
 import net.horizonsquarer.splanade.Splanade;
 import net.horizonsquarer.splanade.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,7 +21,10 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Splanade.MOD_ID);
 
     public static final RegistryObject<Block> REFINED_TENEBRITE_BLOCK = registerFireproofBlock("refined_tenebrite_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).strength(5.0F, 8.0F)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).strength(5.0F, 8.0F).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> TENEBRITE_ORE = registerBlock("tenebrite_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).requiresCorrectToolForDrops(), UniformInt.of(8,12)));
 
 
 
