@@ -1,6 +1,11 @@
 package net.horizonsquarer.splanade;
 
 import com.mojang.logging.LogUtils;
+import net.horizonsquarer.splanade.block.ModBlocks;
+import net.horizonsquarer.splanade.item.ModCreativeModeTab;
+import net.horizonsquarer.splanade.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +34,12 @@ public class Splanade
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModeTab.register(modEventBus);
+
+        //REGS
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
@@ -48,15 +59,17 @@ public class Splanade
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TENEBRITE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
+        @SubscribeEvent
+        public void onServerStarting(ServerStartingEvent event)
+        {
 
-    }
+        }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "splanade:refined_tenebrite_block"
+    }
+  ],
+  "result" : {
+    "item": "splanade:refined_tenebrite",
+    "count": 9
+  }
+}

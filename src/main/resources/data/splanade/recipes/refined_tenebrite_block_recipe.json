@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "splanade:refined_tenebrite"
+    }
+  },
+  "result": {
+    "item": "splanade:refined_tenebrite_block"
+  }
+}
