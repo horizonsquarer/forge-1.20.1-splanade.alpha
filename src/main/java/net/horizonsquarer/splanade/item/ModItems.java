@@ -1,13 +1,10 @@
 package net.horizonsquarer.splanade.item;
 
-import com.google.common.util.concurrent.ClosingFuture;
 import net.horizonsquarer.splanade.Splanade;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PotionItem;
-import net.minecraft.world.item.alchemy.Potion;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,6 +26,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> REFINED_TENEBRITE = ITEMS.register("refined_tenebrite",
             () -> new Item(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> TENEBRITE_SOLUTION_POTION = ITEMS.register("tenebrite_solution_potion",
+            () -> new TenebriteSolutionItem(new Item.Properties()
+                    .stacksTo(1)
+                    .craftRemainder(Items.GLASS_BOTTLE)
+                    .food(Foods.HONEY_BOTTLE)));
 
         //ARMOR
     public static final RegistryObject<Item> TENEBRITE_CHESTPLATE = ITEMS.register("tenebrite_chestplate",

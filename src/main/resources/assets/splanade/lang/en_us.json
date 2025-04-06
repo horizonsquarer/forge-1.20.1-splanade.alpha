@@ -7,9 +7,13 @@
   "item.splanade.tenebrite_chestplate": "Tenebrite Chestplate",
   "item.splanade.tenebrite_helmet": "Tenebrite Helmet",
   "item.splanade.tenebrite_leggings": "Tenebrite Leggings",
+  "item.splanade.tenebrite_solution_potion": "Tenebrite Solution",
+  "item.splanade.tenebrite_solution_potion.tooltip": "Poison V (00:05)",
 
   "block.splanade.refined_tenebrite_block": "Refined Tenebrite Block",
   "block.splanade.tenebrite_ore": "Tenebrite Ore",
+
+  "tooltip.splanade.tenebrite_dust": "A fine powder. Maybe it needs to be processed in some way to be useful.",
 
   "creativetab.splanade_tab": "Splanade"
 }

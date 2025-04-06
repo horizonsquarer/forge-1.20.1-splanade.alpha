@@ -1,0 +1,9 @@
+{
+  "parent": "item/potion",
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "splanade:item/tenebrite_solution_potion"
+    }
+  ]
+}
