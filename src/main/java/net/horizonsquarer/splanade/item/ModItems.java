@@ -1,6 +1,8 @@
 package net.horizonsquarer.splanade.item;
 
 import net.horizonsquarer.splanade.Splanade;
+import net.horizonsquarer.splanade.item.custom.TenebriteSolutionItem;
+import net.horizonsquarer.splanade.item.custom.CrystallisedTenebriteSolutionItem;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -29,7 +31,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> TENEBRITE_SOLUTION_POTION = ITEMS.register("tenebrite_solution_potion",
             () -> new TenebriteSolutionItem(new Item.Properties()
-                    .stacksTo(1)
+                    .stacksTo(16)
+                    .craftRemainder(Items.GLASS_BOTTLE)
+                    .food(Foods.HONEY_BOTTLE)));
+    public static final RegistryObject<Item> CRYSTALLISED_TENEBRITE_SOLUTION_POTION = ITEMS.register("crystallised_tenebrite_solution_potion",
+            () -> new CrystallisedTenebriteSolutionItem(new Item.Properties()
+                    .stacksTo(16)
                     .craftRemainder(Items.GLASS_BOTTLE)
                     .food(Foods.HONEY_BOTTLE)));
 

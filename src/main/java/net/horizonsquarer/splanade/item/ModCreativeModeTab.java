@@ -26,6 +26,7 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.TENEBRITE.get());
                         pOutput.accept(ModItems.REFINED_TENEBRITE.get());
                         pOutput.accept(ModItems.TENEBRITE_SOLUTION_POTION.get());
+                        pOutput.accept(ModItems.CRYSTALLISED_TENEBRITE_SOLUTION_POTION.get());
 
 
                         pOutput.accept(ModBlocks.REFINED_TENEBRITE_BLOCK.get());

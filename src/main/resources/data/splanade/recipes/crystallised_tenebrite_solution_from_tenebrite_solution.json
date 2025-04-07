@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 1.5,
+  "ingredient": {
+    "item": "splanade:tenebrite_solution_potion"
+  },
+  "result": "splanade:crystallised_tenebrite_solution_potion"
+}

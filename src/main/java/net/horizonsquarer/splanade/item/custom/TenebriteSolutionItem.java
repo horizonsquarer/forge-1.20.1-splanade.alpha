@@ -1,4 +1,4 @@
-package net.horizonsquarer.splanade.item;
+package net.horizonsquarer.splanade.item.custom;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -12,6 +12,8 @@ import net.minecraft.ChatFormatting;
 
 import javax.annotation.Nullable;
 import java.util.List;
+
+import static net.minecraft.world.item.alchemy.Potions.POISON;
 
 public class TenebriteSolutionItem extends PotionItem {
     public TenebriteSolutionItem(Properties properties) {
