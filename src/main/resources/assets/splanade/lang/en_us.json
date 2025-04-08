@@ -10,10 +10,12 @@
   "item.splanade.tenebrite_solution_potion": "Tenebrite Solution",
   "item.splanade.crystallised_tenebrite_solution_potion": "Crystallised Tenebrite Solution",
   "item.splanade.tenebrite_solution_potion.tooltip": "Poison V (00:05)",
-  "item.splanade.crystallised_tenebrite_solution_potion.tooltip": "Rightclick to empity the bottle",
+  "item.splanade.crystallised_tenebrite_solution_potion.tooltip": "Right-click to empty the bottle",
 
   "block.splanade.refined_tenebrite_block": "Refined Tenebrite Block",
   "block.splanade.tenebrite_ore": "Tenebrite Ore",
+  "block.splanade.petrified_mycostratum": "Petrified Mycostratum",
+  "block.splanade.mycostatic_crust": "Mycostatic Crust",
 
   "creativetab.splanade_tab": "Splanade"
 }

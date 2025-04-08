@@ -31,6 +31,8 @@ public class ModCreativeModeTab {
 
                         pOutput.accept(ModBlocks.REFINED_TENEBRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.TENEBRITE_ORE.get());
+                        pOutput.accept(ModBlocks.MYCOSTATIC_CRUST.get());
+                        pOutput.accept(ModBlocks.PETRIFIED_MYCOSTRATUM.get());
 
                                 //ARMOR
                         pOutput.accept(ModItems.TENEBRITE_HELMET.get());

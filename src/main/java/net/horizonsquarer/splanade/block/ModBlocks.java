@@ -26,6 +26,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> TENEBRITE_ORE = registerBlock("tenebrite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).requiresCorrectToolForDrops(), UniformInt.of(8,12)));
 
+    public static final RegistryObject<Block> MYCOSTATIC_CRUST = registerBlock("mycostatic_crust",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> PETRIFIED_MYCOSTRATUM = registerBlock("petrified_mycostratum",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).requiresCorrectToolForDrops()));
+
 
 
 

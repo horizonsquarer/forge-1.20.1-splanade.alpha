@@ -1,0 +1,5 @@
+// 1.20.1	2025-04-08T20:58:18.2925338	Tags for minecraft:block mod id splanade
+368aa66fe9f0f37648973306c8bdae1cd45336fa data/minecraft/tags/blocks/mineable/pickaxe.json
+df5432ff222d8e0ad388aa3679eea29d12f7eb5e data/minecraft/tags/blocks/needs_diamond_tool.json
+df5432ff222d8e0ad388aa3679eea29d12f7eb5e data/minecraft/tags/blocks/needs_iron_tool.json
+df5432ff222d8e0ad388aa3679eea29d12f7eb5e data/minecraft/tags/blocks/needs_stone_tool.json
