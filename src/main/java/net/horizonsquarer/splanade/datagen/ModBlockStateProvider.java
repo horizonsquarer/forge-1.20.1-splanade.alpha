@@ -2,6 +2,7 @@ package net.horizonsquarer.splanade.datagen;
 
 import net.horizonsquarer.splanade.Splanade;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -20,6 +21,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.REFINED_TENEBRITE_BLOCK);
         blockWithItem(ModBlocks.MYCOSTATIC_CRUST);
         blockWithItem(ModBlocks.PETRIFIED_MYCOSTRATUM);
+
+        simpleBlockWithItem(ModBlocks.LUMEN_SPORE.get(), models().cross(blockTexture(ModBlocks.LUMEN_SPORE.get()).getPath(),
+                blockTexture(ModBlocks.LUMEN_SPORE.get())).renderType("cutout"));
+        //FLOWERPOTTED
+        simpleBlockWithItem(ModBlocks.POTTED_LUMEN_SPORE.get(), models().singleTexture("potted_lumen_spore",
+                ResourceLocation.withDefaultNamespace("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.LUMEN_SPORE.get())).renderType("cutout"));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

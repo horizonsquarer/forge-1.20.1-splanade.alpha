@@ -3,10 +3,18 @@
   "item.splanade.tenebrite": "Tenebrite",
   "item.splanade.tenebrite_dust": "Tenebrite Dust",
   "item.splanade.crystallised_tenebrite_dust": "Crystallised Tenebrite Dust",
+
   "item.splanade.tenebrite_boots": "Tenebrite Boots",
   "item.splanade.tenebrite_chestplate": "Tenebrite Chestplate",
   "item.splanade.tenebrite_helmet": "Tenebrite Helmet",
   "item.splanade.tenebrite_leggings": "Tenebrite Leggings",
+
+  "item.splanade.tenebrite_sword": "Tenebrite Sword",
+  "item.splanade.tenebrite_pickaxe": "Tenebrite Pickaxe",
+  "item.splanade.tenebrite_axe": "Tenebrite Axe",
+  "item.splanade.tenebrite_shovel": "Tenebrite Shovel",
+  "item.splanade.tenebrite_hoe": "Tenebrite Hoe",
+
   "item.splanade.tenebrite_solution_potion": "Tenebrite Solution",
   "item.splanade.crystallised_tenebrite_solution_potion": "Crystallised Tenebrite Solution",
   "item.splanade.tenebrite_solution_potion.tooltip": "Poison V (00:05)",
@@ -16,6 +24,8 @@
   "block.splanade.tenebrite_ore": "Tenebrite Ore",
   "block.splanade.petrified_mycostratum": "Petrified Mycostratum",
   "block.splanade.mycostatic_crust": "Mycostatic Crust",
+  "block.splanade.lumen_spore": "Lumen Spore",
+
 
   "creativetab.splanade_tab": "Splanade"
 }

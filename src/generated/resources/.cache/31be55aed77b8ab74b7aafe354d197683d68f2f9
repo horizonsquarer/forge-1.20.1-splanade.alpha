@@ -1,13 +1,19 @@
-// 1.20.1	2025-04-08T20:58:18.2905332	Block States: splanade
+// 1.20.1	2025-04-09T16:20:11.8090464	Block States: splanade
+f4d24640d112fb405e9cc5a157bf0f6d9cff8ca4 assets/splanade/blockstates/lumen_spore.json
 83290987b3a87be1847dc4fdcb33712e28613d13 assets/splanade/blockstates/mycostatic_crust.json
 fb6d2a04ea4edda1389a5db4bb0ea06018153802 assets/splanade/blockstates/petrified_mycostratum.json
+9480213536e1bba59fd75b224410afe0f67522a6 assets/splanade/blockstates/potted_lumen_spore.json
 ef71a9bebb17baf2fa1923820c44f235ac995aec assets/splanade/blockstates/refined_tenebrite_block.json
 99f2673a01b065dac8087576a67bd46b0c2697dd assets/splanade/blockstates/tenebrite_ore.json
+d5c5f1c1f8958d3d76fcca15280537ec0b785554 assets/splanade/models/block/lumen_spore.json
 23975a85581932a8f0891b3a8aab808054565fa9 assets/splanade/models/block/mycostatic_crust.json
 00c44346e74d13f812bc6d4ca36ca4ff8b03870e assets/splanade/models/block/petrified_mycostratum.json
+e63009cf0c566da1278213f56b4a3dd1be4b7773 assets/splanade/models/block/potted_lumen_spore.json
 bd53f2cb07fdbba62602eb50f318f4ce6a2402f7 assets/splanade/models/block/refined_tenebrite_block.json
 978c8ec6b82ba3b3a58278e64a89317784c5b91d assets/splanade/models/block/tenebrite_ore.json
+4bbd93829d9737aa78ba16281d3840305d6934cf assets/splanade/models/item/lumen_spore.json
 1e232197f1fd525719db5d444d5c87754ad747bb assets/splanade/models/item/mycostatic_crust.json
 b60eeb29cf7bdfae97fae3fb2044f3e6d57cd7ff assets/splanade/models/item/petrified_mycostratum.json
+b0982b99197824078ac29b43bff8db41db1e623c assets/splanade/models/item/potted_lumen_spore.json
 917b51c948591440e8aef71992bd84357343918a assets/splanade/models/item/refined_tenebrite_block.json
 d003558cc7db9cf997a139b6d28612b1f33a4f83 assets/splanade/models/item/tenebrite_ore.json

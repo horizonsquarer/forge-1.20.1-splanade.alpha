@@ -4,9 +4,7 @@ import net.horizonsquarer.splanade.Splanade;
 import net.horizonsquarer.splanade.item.custom.TenebriteSolutionItem;
 import net.horizonsquarer.splanade.item.custom.CrystallisedTenebriteSolutionItem;
 import net.minecraft.world.food.Foods;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -53,6 +51,21 @@ public class ModItems {
     public static final RegistryObject<Item> TENEBRITE_BOOTS = ITEMS.register("tenebrite_boots",
             () -> new ArmorItem(ModArmorMaterials.REFINED_TENEBRITE, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
+    //TOOLS
+    public static final RegistryObject<Item> TENEBRITE_SWORD = ITEMS.register("tenebrite_sword",
+            () -> new SwordItem(ModToolTiers.REFINED_TENEBRITE, 4,0, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> TENEBRITE_PICKAXE = ITEMS.register("tenebrite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.REFINED_TENEBRITE, 1,0, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> TENEBRITE_AXE = ITEMS.register("tenebrite_axe",
+            () -> new AxeItem(ModToolTiers.REFINED_TENEBRITE, 5,0, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> TENEBRITE_SHOVEL = ITEMS.register("tenebrite_shovel",
+            () -> new ShovelItem(ModToolTiers.REFINED_TENEBRITE, 2,2, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> TENEBRITE_HOE = ITEMS.register("tenebrite_hoe",
+            () -> new HoeItem(ModToolTiers.REFINED_TENEBRITE, 0,0, new Item.Properties().fireResistant()));
 
 
     public static void register(IEventBus eventBus) {

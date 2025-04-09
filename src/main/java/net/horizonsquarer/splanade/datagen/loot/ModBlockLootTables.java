@@ -31,6 +31,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.TENEBRITE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.TENEBRITE_ORE.get(), ModItems.TENEBRITE_DUST.get()));
+
+        this.dropSelf(ModBlocks.LUMEN_SPORE.get());
+        this.add(ModBlocks.POTTED_LUMEN_SPORE.get(), createPotFlowerItemTable(ModBlocks.LUMEN_SPORE.get()));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

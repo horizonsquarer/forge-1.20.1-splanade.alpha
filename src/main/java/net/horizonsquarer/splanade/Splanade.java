@@ -1,6 +1,9 @@
 package net.horizonsquarer.splanade;
 
 import net.horizonsquarer.splanade.brewing.TenebriteBrewingRecipe;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import com.mojang.logging.LogUtils;
 import net.horizonsquarer.splanade.block.ModBlocks;
@@ -57,6 +60,10 @@ public class Splanade {
             // Awkward Potion + tenebrite_dust = tenebrite_solution.
             BrewingRecipeRegistry.addRecipe(new TenebriteBrewingRecipe());
         });
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.LUMEN_SPORE.getId(), ModBlocks.POTTED_LUMEN_SPORE);
+        });
+
     }
 
     // Add the example block item to the building blocks tab

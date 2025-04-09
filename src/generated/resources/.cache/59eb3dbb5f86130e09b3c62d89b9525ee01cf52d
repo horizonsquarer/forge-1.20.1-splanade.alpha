@@ -1,5 +1,7 @@
-// 1.20.1	2025-04-08T20:58:18.2935371	Loot Tables
+// 1.20.1	2025-04-09T16:20:11.8100451	Loot Tables
+a0f5e4984abe2d33193f6b3025da7133a2323ba7 data/splanade/loot_tables/blocks/lumen_spore.json
 cbeb4e9725b8888f7a7c9655acf2d0466f7f14f2 data/splanade/loot_tables/blocks/mycostatic_crust.json
 2d9b9ba8323e62e38fc82dad9a55447027c3a90c data/splanade/loot_tables/blocks/petrified_mycostratum.json
+825076b8dc106e4645857b6036cd8c3d771278f3 data/splanade/loot_tables/blocks/potted_lumen_spore.json
 107b1599af436077fd6bb70b2e19b78ef1e19849 data/splanade/loot_tables/blocks/refined_tenebrite_block.json
 9a2b64c0ed9890cd8e2c5cfd41ef58ebb5996cc7 data/splanade/loot_tables/blocks/tenebrite_ore.json

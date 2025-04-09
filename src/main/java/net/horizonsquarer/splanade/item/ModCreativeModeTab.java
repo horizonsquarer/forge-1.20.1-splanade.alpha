@@ -21,6 +21,8 @@ public class ModCreativeModeTab {
                     .displayItems((pParameters, pOutput) -> {
                         //ITEMS IN HERE IN ORDER
                             //TENEBRITE STUFF
+                        pOutput.accept(ModBlocks.REFINED_TENEBRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.TENEBRITE_ORE.get());
                         pOutput.accept(ModItems.TENEBRITE_DUST.get());
                         pOutput.accept(ModItems.CRYSTALLISED_TENEBRITE_DUST.get());
                         pOutput.accept(ModItems.TENEBRITE.get());
@@ -28,17 +30,21 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.TENEBRITE_SOLUTION_POTION.get());
                         pOutput.accept(ModItems.CRYSTALLISED_TENEBRITE_SOLUTION_POTION.get());
 
-
-                        pOutput.accept(ModBlocks.REFINED_TENEBRITE_BLOCK.get());
-                        pOutput.accept(ModBlocks.TENEBRITE_ORE.get());
-                        pOutput.accept(ModBlocks.MYCOSTATIC_CRUST.get());
-                        pOutput.accept(ModBlocks.PETRIFIED_MYCOSTRATUM.get());
-
                                 //ARMOR
                         pOutput.accept(ModItems.TENEBRITE_HELMET.get());
                         pOutput.accept(ModItems.TENEBRITE_CHESTPLATE.get());
                         pOutput.accept(ModItems.TENEBRITE_LEGGINGS.get());
                         pOutput.accept(ModItems.TENEBRITE_BOOTS.get());
+
+                        pOutput.accept(ModItems.TENEBRITE_SWORD.get());
+                        pOutput.accept(ModItems.TENEBRITE_PICKAXE.get());
+                        pOutput.accept(ModItems.TENEBRITE_AXE.get());
+                        pOutput.accept(ModItems.TENEBRITE_SHOVEL.get());
+                        pOutput.accept(ModItems.TENEBRITE_HOE.get());
+
+                        pOutput.accept(ModBlocks.MYCOSTATIC_CRUST.get());
+                        pOutput.accept(ModBlocks.PETRIFIED_MYCOSTRATUM.get());
+                        pOutput.accept(ModBlocks.LUMEN_SPORE.get());
 
 
                     })
